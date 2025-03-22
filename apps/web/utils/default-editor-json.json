@@ -1,0 +1,82 @@
+{
+  "type": "doc",
+  "content": [
+    {
+      "type": "logo",
+      "attrs": {
+        "src": "https://maily.to/brand/logo.png",
+        "alt": null,
+        "title": null,
+        "maily-component": "logo",
+        "size": "md",
+        "alignment": "left"
+      }
+    },
+    { "type": "spacer", "attrs": { "height": "xl" } },
+    {
+      "type": "heading",
+      "attrs": { "textAlign": "left", "level": 2 },
+      "content": [
+        {
+          "type": "text",
+          "marks": [{ "type": "bold" }],
+          "text": "Write your email here"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": { "textAlign": "left" },
+      "content": [
+        {
+          "type": "text",
+          "text": "Are you ready to transform your email communication? Introducing Mailofly, the powerful email editor that helps you create stunning and professional emails with ease."
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": { "textAlign": "left" },
+      "content": [
+        {
+          "type": "text",
+          "text": "Elevate your email communication with Mailofly! Click below to try it out:"
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "attrs": {
+        "text": "Click here →",
+        "url": "",
+        "alignment": "left",
+        "variant": "filled",
+        "borderRadius": "round",
+        "buttonColor": "#000000",
+        "textColor": "#ffffff"
+      }
+    },
+    { "type": "spacer", "attrs": { "height": "xl" } },
+    {
+      "type": "paragraph",
+      "attrs": { "textAlign": "left" },
+      "content": [
+        {
+          "type": "text",
+          "text": "Write your footer content here "
+        }
+       
+       
+      ]
+    },
+    {
+      "type": "paragraph",
+      "attrs": { "textAlign": "left" },
+      "content": [
+        { "type": "text", "text": "Regards," },
+        { "type": "hardBreak" },
+        { "type": "text", "text": "Your Name" }
+      ]
+    }
+  ]
+}
