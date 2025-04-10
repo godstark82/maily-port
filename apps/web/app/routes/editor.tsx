@@ -65,8 +65,6 @@ export default function EditorWindow() {
 
     return (
         <>
-            <button onClick={printHtml}>Print HTML</button>
-            <button onClick={printJson}>Print JSON</button>
             <Layout>
             <Editor
                 config={{
@@ -79,6 +77,7 @@ export default function EditorWindow() {
                     autofocus: 'end',
                     immediatelyRender: false,
                 }}
+                
                 contentJson={initialContent}
                 onUpdate={(editor) => {
                     // Save editor content to cookie
